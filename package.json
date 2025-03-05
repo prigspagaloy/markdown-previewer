@@ -1,8 +1,8 @@
 {
-  "homepage": "https://prigspagaloy.github.io/markdown-previewer",
   "name": "markdown-previewer",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://prigspagaloy.github.io/markdown-previewer",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
