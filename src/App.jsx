@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './App.css'
 import ReactMarkdown from 'react-markdown'
 
+
 const defaultText = `# Welcome to my React Markdown Previewer!
 
 ## This is a sub-heading...
@@ -86,7 +87,7 @@ return (
     <>
       <div id="editor-container" style={{display: !show ? "block" : "none", maxWidth: resize ? "800px" : ""}}>
         <div id="editor-title"><h2 id="editor-text"><i className="fa fa-free-code-camp" style={{ fontSize: "22px" }}></i> Editor</h2><i id="expand" className="fa fa-expand" onClick={changeSize} style={{ fontSize: "22px" }}></i></div> 
-          <textarea id="editor" style={{ minHeight: resize ? "600px" : "" }} value={text} onChange={preViewer}></textarea>
+          <textarea id="editor" style={{ minHeight: resize ? "800px" : "" }} value={text} onChange={preViewer}></textarea>
         </div>  
 
       <div id="preview-container" style={{ display: !toggle ? "block" : "none" }}>
